@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <footer class="relative bg-white overflow-hidden">
+        <div class="absolute top-0 left-0 right-0 h-24 bg-gradient-to-t from-transparent to-white z-10"></div>
+        <div class="relative z-20 px-8 py-10 lg:py-24 flex flex-col gap-8">
+          <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10">
+            <!-- Logo & Subscription Section -->
+            <div class="lg:max-w-xs flex flex-col gap-5">
+              <div class="flex flex-col items-center py-4 border border-gray-200 rounded-lg">
+                <svg width="104" height="18" viewBox="0 0 104 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- SVG Path Here -->
+                </svg>
+                <p class="text-gray-500 text-sm">5/5 on</p>
+              </div>
+              <p class="text-center lg:text-left text-gray-700 font-medium">
+                Subscribe to learn about our latest news, updates, and adventures.
+              </p>
+              <form class="flex flex-col gap-4 lg:max-w-xs">
+                <input class="w-full p-3 bg-gray-100 rounded-lg border focus:border-gray-400" type="text" name="firstname" placeholder="Your First Name*" autocomplete="on">
+                <input class="w-full p-3 bg-gray-100 rounded-lg border focus:border-gray-400" type="email" name="email" placeholder="Your Email*" autocomplete="on">
+                <input class="w-full p-3 bg-gray-100 rounded-lg border focus:border-gray-400" type="text" name="zip_code" placeholder="Zip Code*">
+                <button class="w-full py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">Subscribe</button>
+              </form>
+            </div>
+            <!-- Navigation Links -->
+            <div>
+              <div class="border-t border-gray-300 my-10"></div>
+              <nav class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="flex flex-col gap-2">
+                  <p class="text-gray-500 text-sm">Buy</p>
+                  <a href="/inventory" class="hover:text-gray-700">Inventory</a>
+                  <a href="/rentals" class="hover:text-gray-700">Rentals</a>
+                  <a href="/dealers" class="hover:text-gray-700">Find a Dealer</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <p class="text-gray-500 text-sm">Models</p>
+                  <a href="/noovo-lite" class="hover:text-gray-700">The Lite</a>
+                  <a href="/noovo-pop" class="hover:text-gray-700">The Pop</a>
+                  <a href="/noovo-plus" class="hover:text-gray-700">The Plus</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <p class="text-gray-500 text-sm">Help Me Choose</p>
+                  <a href="/configure" class="hover:text-gray-700">Configure</a>
+                  <a href="/brochures" class="hover:text-gray-700">Brochures</a>
+                  <a href="/blog" class="hover:text-gray-700">Blog</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <p class="text-gray-500 text-sm">Noovo</p>
+                  <a href="/faq" class="hover:text-gray-700">FAQ</a>
+                  <a href="/resources" class="hover:text-gray-700">Resources</a>
+                  <a href="/service" class="hover:text-gray-700">Service</a>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-center border-t border-gray-300 pt-6 text-sm text-gray-500">
+            <p>&copy; 2025 Noovo. All Rights Reserved.</p>
+            <div class="flex gap-4">
+              <a href="/cookies" class="hover:text-gray-700">Cookies</a>
+              <a href="/terms" class="hover:text-gray-700">Terms</a>
+              <a href="/privacy-policy" class="hover:text-gray-700">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+  </body>
+</html>
